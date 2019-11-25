@@ -14,6 +14,7 @@ public class Player : MonoBehaviour
     // Cached Component References
     Rigidbody2D myRigidbody;
     Animator myAnimator;
+    Collider2D myCollider2D;
 
     // Messages
 
@@ -22,6 +23,7 @@ public class Player : MonoBehaviour
     {
         myRigidbody = GetComponent<Rigidbody2D>();
         myAnimator = GetComponent<Animator>();
+        myCollider2D = GetComponent<Collider2D>();
     }
 
     // Update is called once per frame
@@ -46,6 +48,9 @@ public class Player : MonoBehaviour
     {
         if(Input.GetButtonDown("Jump"))
         {
+            if (!myCollider2D.IsTouchingLayers(LayerMask.GetMask("Ground")))
+            { return;  }
+            
             Vector2 jumpVelocityToAdd = new Vector2(0f, jumpSpeed);
             myRigidbody.velocity += jumpVelocityToAdd;
         }
