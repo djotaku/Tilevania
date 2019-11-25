@@ -4,13 +4,23 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    // Configs
     [SerializeField] float runSpeed = 5f;
-    Rigidbody2D myRigidboy;
 
-    // Start is called before the first frame update
+    // State
+    bool isAlive = true; 
+
+    // Cached Component References
+    Rigidbody2D myRigidbody;
+    Animator myAnimator;
+
+    // Messages
+
+    // Methods
     void Start()
     {
-        myRigidboy = GetComponent<Rigidbody2D>();
+        myRigidbody = GetComponent<Rigidbody2D>();
+        myAnimator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -23,16 +33,19 @@ public class Player : MonoBehaviour
     private void Run()
     {
         float controlThrow = Input.GetAxis("Horizontal");  //value is -1 to 1
-        Vector2 playerVelocity = new Vector2(controlThrow * runSpeed, myRigidboy.velocity.y);
-        myRigidboy.velocity = playerVelocity;
+        Vector2 playerVelocity = new Vector2(controlThrow * runSpeed, myRigidbody.velocity.y);
+        myRigidbody.velocity = playerVelocity;
+        bool playerHasHorizontalSpeed = Mathf.Abs(myRigidbody.velocity.x) > Mathf.Epsilon;
+        myAnimator.SetBool("Running", playerHasHorizontalSpeed);
+        
     }
 
     private void FlipSprite()
     {
-        bool playerHasHorizontalSpeed = Mathf.Abs(myRigidboy.velocity.x) > Mathf.Epsilon;
+        bool playerHasHorizontalSpeed = Mathf.Abs(myRigidbody.velocity.x) > Mathf.Epsilon;
         if (playerHasHorizontalSpeed)
         {
-            transform.localScale = new Vector2 (Mathf.Sign(myRigidboy.velocity.x), 1f);
+            transform.localScale = new Vector2 (Mathf.Sign(myRigidbody.velocity.x), 1f);
         }
     }
 }
