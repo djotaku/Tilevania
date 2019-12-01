@@ -2594,6 +2594,12 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!95 &1742498182 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4324291853154061001, guid: 6bc58476e3896d84ba7b237bc83e3b4f,
+    type: 3}
+  m_PrefabInstance: {fileID: 4324291855145653889}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1825741875
 GameObject:
   m_ObjectHideFlags: 0
@@ -7731,6 +7737,34 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1333770382}
     - target: {fileID: 3932126617288575931, guid: 9aa2347b31a09d44aa3082a39cb6ec5b,
+        type: 3}
+      propertyPath: m_BoundingShape2D
+      value: 
+      objectReference: {fileID: 1887576836}
+    - target: {fileID: 618771798, guid: 9aa2347b31a09d44aa3082a39cb6ec5b, type: 3}
+      propertyPath: m_ChildCameras.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 618771798, guid: 9aa2347b31a09d44aa3082a39cb6ec5b, type: 3}
+      propertyPath: m_AnimatedTarget
+      value: 
+      objectReference: {fileID: 1742498182}
+    - target: {fileID: 7083725977300996286, guid: 9aa2347b31a09d44aa3082a39cb6ec5b,
+        type: 3}
+      propertyPath: m_Follow
+      value: 
+      objectReference: {fileID: 1333770382}
+    - target: {fileID: 3950537115874298984, guid: 9aa2347b31a09d44aa3082a39cb6ec5b,
+        type: 3}
+      propertyPath: m_BoundingShape2D
+      value: 
+      objectReference: {fileID: 1887576836}
+    - target: {fileID: 6592314057306076635, guid: 9aa2347b31a09d44aa3082a39cb6ec5b,
+        type: 3}
+      propertyPath: m_Follow
+      value: 
+      objectReference: {fileID: 1333770382}
+    - target: {fileID: 4932195506804344670, guid: 9aa2347b31a09d44aa3082a39cb6ec5b,
         type: 3}
       propertyPath: m_BoundingShape2D
       value: 
