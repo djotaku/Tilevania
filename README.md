@@ -5,7 +5,11 @@ A Tilemap Platformer
 ![Screenshot](https://github.com/djotaku/Tilevania/blob/master/Assets/Screenshot/Tilevania-Screenshot-3.png)
 
 
-Video of current progress: https://youtu.be/ef1NQIIB-FI
+Video of current progress: https://youtu.be/NtYRjLstiLU
+
+### Fun Videos
+
+Rigidbody on enemy causes issues: https://youtu.be/sZdUlxA_JhY
 
 # Visual and Audio Credits
 
