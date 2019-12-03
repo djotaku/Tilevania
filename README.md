@@ -2,7 +2,7 @@ Tilevania
 
 A Tilemap Platformer
 
-![Screenshot](https://github.com/djotaku/Tilevania/blob/master/Assets/Screenshot/Tilevania-Screenshot-3.png)
+![Screenshot](https://github.com/djotaku/Tilevania/blob/master/Assets/Screenshot/Tilevania-Screenshot-4.png)
 
 
 Video of current progress: https://youtu.be/nKWeLCWl9Xk
