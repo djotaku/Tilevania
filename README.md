@@ -5,7 +5,7 @@ A Tilemap Platformer
 ![Screenshot](https://github.com/djotaku/Tilevania/blob/master/Assets/Screenshot/Tilevania-Screenshot-3.png)
 
 
-Video of current progress: https://youtu.be/NtYRjLstiLU
+Video of current progress: https://youtu.be/nKWeLCWl9Xk
 
 ### Fun Videos
 
