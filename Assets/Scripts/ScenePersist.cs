@@ -17,7 +17,7 @@ public class ScenePersist : MonoBehaviour
         }
         else
         {
-            DontDestroyOnLoad(gameObject);
+            DontDestroyOnLoad(gameObject); 
         }
     }
 
