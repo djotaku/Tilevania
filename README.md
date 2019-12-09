@@ -4,8 +4,11 @@ A Tilemap Platformer
 
 ![Screenshot](https://github.com/djotaku/Tilevania/blob/master/Assets/Screenshot/Tilevania-Screenshot-6.png)
 
+To play on Windows or Linux - go to the releases link and download the game.
 
-Video of current progress: https://youtu.be/LjpWxBV3FRI
+To play on the web, here's the WebGL link: http://server.ericsbinaryworld.com/WebGL/TilevaniaWebGL/
+
+Video of v0.1: https://youtu.be/umU24tzSXFo
 
 ### Fun Videos
 
@@ -22,4 +25,7 @@ TBA
 
 # What I learned in this module of the class
 
-TBA
+- Using Unity Tilemap to create levels
+- Using rule tiles to make painting a level happen somewhat automatically and be less of a PITA
+- If you load more levels into hierarchy, you can see multiple scenes at once to visualize level flow
+- Gating technique - for example, make the cliff so large the player can't jump back up and get back to the beginning
