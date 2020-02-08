@@ -2,7 +2,7 @@ Tilevania
 
 A Tilemap Platformer
 
-![Screenshot](https://github.com/djotaku/Tilevania/blob/master/Assets/Screenshot/Tilevania-Screenshot-6.png)
+![Screenshot](https://github.com/djotaku/Tilevania/raw/master/Assets/Screenshot/Tilevania-Screenshot-6.png)
 
 To play on Windows or Linux - go to the releases link and download the game.
 
