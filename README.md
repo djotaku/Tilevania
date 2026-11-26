@@ -1,4 +1,6 @@
-Tilevania
+#Tilevania
+
+*Note: I will be archiving this project on Github. I will most likely not be going any more work on this project, but if I do, it will be at http://code.ericmesa.com/djotaku/Tilevania*
 
 A Tilemap Platformer
 
@@ -6,7 +8,7 @@ A Tilemap Platformer
 
 To play on Windows or Linux - go to the releases link and download the game.
 
-To play on the web, here's the WebGL link: http://server.ericsbinaryworld.com/WebGL/TilevaniaWebGL/
+To play on the web, here's the WebGL link: (need to find in my backups)
 
 Video of v0.1: https://youtu.be/umU24tzSXFo
 
