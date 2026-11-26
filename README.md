@@ -6,6 +6,8 @@ A Tilemap Platformer
 
 ![Screenshot](https://github.com/djotaku/Tilevania/raw/master/Assets/Screenshot/Tilevania-Screenshot-6.png)
 
+Created while following along with an earlier version of [this Unity 2D class](https://gamedev.tv/courses/unity6-complete-2d)
+
 To play on Windows or Linux - go to the releases link and download the game.
 
 To play on the web, here's the WebGL link: (need to find in my backups)
